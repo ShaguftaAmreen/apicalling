@@ -3,9 +3,9 @@ function Main  ({ data })  {
       <div>  
           {data.map((ele) => (
             <div key={ele.id}>
-              <p>{ele.id}</p>
-              <p>{ele.email}</p>
-              <p>{ele.title}</p>
+              <p style={{display:"inline"}}>{ele.id+" "}</p>
+              <p style={{display:"inline"}}>{ele.email+" "}</p>
+              <p style={{display:"inline"}}>{ele.title+" "}</p>
          </div> ))}
       </div>
     );
